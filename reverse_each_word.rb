@@ -1,6 +1,7 @@
 def reverse_each_word(phrase)
   phrase.split.collect{|word| word.reverse}
+  
 end
 
 
-reverse_each_word("hello how are you doing today?")
+puts reverse_each_word("hello how are you doing today?")
